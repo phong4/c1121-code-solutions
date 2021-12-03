@@ -11,17 +11,15 @@
   </head>
   <body>
     <div class = "container">
-      <div class = "head">
         <div class = "head">
-          <h4>LEARN MORE</h4>
+          <h2>LEARN MORE</h2>
         </div>
-      </div>
       <div class = "fieldset">
         <label for = "text">COMPANY EMAIL</label>
         <div></div>
         <input id = "text" input type = "email" placeholder="sally@company.co">
       </div>
-      <div class = "text">
+      <div class = "fieldset">
         <label for = "name">NAME</label>
         <div></div>
         <input id = "text2" input type = "text" placeholder = "Sally Smith">
@@ -34,7 +32,12 @@
       <div class = "fieldset">
         <label for="text">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
         <div></div>
-        <input id="text4" input type="text" placeholder="1-2 Engineers" />
+        <select id = "custom-form">Select an option
+        <option value="# of Engineers">1-2 Engineers</option>
+        </select>
+      </div>
+      <div class = "button">
+        <input type = "button" value ="SUBMIT">
       </div>
     </div>
   </body>

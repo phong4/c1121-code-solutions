@@ -1,11 +1,58 @@
-h4 {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: auto;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
 }
 
-label {
-  padding-left: 100%;
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 35px;
+  text-align: center;
+}
+
+.head {
+  color: #ec5d57;
+  text-align: center;
+}
+
+.label {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+input[type=email],
+select,
+textarea {
+  width: 55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+input[type=button] {
+  background-color: #ec5d57;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 75%;
 }
