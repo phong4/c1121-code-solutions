@@ -8,7 +8,7 @@ body {
   font-weight: 500;
   src: url("BrandonGrotesque-Medium.woff2") format("woff2");
   border-radius: 20px;
-  background-color: #f2f2f2;
+  background-color: white;
   padding: 30px;
   display: flex;
 }
