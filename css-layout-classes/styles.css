@@ -1,10 +1,15 @@
 * {
   box-sizing: border-box;
+  padding: 0.4rem;
 }
 
 body {
   margin: 0;
   font-family: sans-serif;
+}
+
+img {
+  width: 100%;
 }
 
 .container {
@@ -24,10 +29,18 @@ body {
   width: 100%;
 }
 
-column-third {
+.column-third {
   width: calc(100% / 3);
 }
 
-.column {
+.column-two-thirds {
+  width: calc(200% / 3);
+}
+
+.column-fourth {
   width: 25%;
+}
+
+.character {
+  width: 100%;
 }
