@@ -1,0 +1,49 @@
+body {
+  background-color: #1996da;
+  color: white;
+  align-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.h2 {
+  padding-top: 5rem;
+}
+
+.icon {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.column-first {
+  width: calc(100% / 3);
+  flex-basis: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.column-second {
+  width: calc(100% / 3);
+  flex-basis: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  flex-basis: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.h3 {
+  line-height: 150%;
+}
